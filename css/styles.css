@@ -1,0 +1,189 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 65%;
+}
+
+.mastpic{	
+	padding-top: 3.6em;
+	min-height: 47em;
+	background-image: url("../images/karma-bg.jpg");
+	background-size: cover;
+	background-repeat: none;
+	background-position: center bottom;
+}
+
+
+.navbar-nav{
+	color: #838994;
+	list-style :none;
+	font-size: 1.125em;
+	font-family: 'Roboto' , sans-serif;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased; 
+}
+
+.navbar-nav .activelink{
+	color: #4c5058;
+    font-weight: 500;
+}
+
+.no-border{
+	border: none;
+}
+
+.bottom-border{
+	border-bottom: 1px solid #DDD;
+}
+
+.bg-white{
+	background-color: #fff;
+}
+
+.center-align{	
+	text-align: center;
+}
+
+.mar-5em{
+	margin: 5em;
+}
+
+.pad-1em{
+	padding: 1em;
+}
+
+.mar-bottom{
+	margin-bottom: 2em;
+}
+
+.max-width-height{
+	max-height: 127px;
+	max-width: 127px;
+}
+
+.header-text{
+	margin-top: 15em;
+	padding-top: 1em;
+	color: #fff; 
+	font-family: 'Roboto' , sans-serif;	
+	letter-spacing: 0.035em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.container h1,h4{
+	font-weight: 300;
+	font-size: 3.25em;
+	margin-bottom: 0.1em;
+}
+
+.header-text h4{
+	font-size: 1.5em;
+	margin-bottom: -0.125em;
+}
+
+.thumbnail{
+	margin-left: 3.85em;
+}
+
+.caption p{
+	font-size: 1.4em;
+	font-weight: 400;
+}
+
+.bgbr-orange{
+	background-color: #f15a29;
+	border: #f15a29;
+	border-radius: 4px;
+	width: 9.6em;
+	color: #fff;
+	padding: 1em 1.5em;
+}
+
+/*******************
+
+footer section 
+
+*******************/
+
+.social{
+	background-color: #fff;
+	padding-bottom: 4em;
+	overflow: auto; /*BFC*/
+}
+
+.social hr{
+	border:0;
+	border-top: 1px solid #eaebec;
+	margin: 1em 0em;
+}
+
+.social .icons{
+	padding :0;
+	list-style: none;
+}
+
+.social h5{
+	font-weight: 300;
+}
+
+.social .icons>li{
+	/*layout*/
+	display: inline-block;
+	width: 2.65em;
+	height: 2.65em;
+	margin: 4px 2px;
+	border: 1px solid #eaebec;
+	border-radius: 50%;
+	padding: 0.65em 0em;
+}
+
+.social .copy{
+	font-size: 0.9em;
+	font-weight: 300;
+	color: #838994;
+}
+
+.social .twitter{
+	color: #55acee;
+}
+
+.social .facebook{
+	color: #4c66a4;
+}
+
+.social .instagram{
+	color: #3f729b;
+}
+
+
+@media screen and (max-width: 992px){
+    .container{
+    	max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 762px){
+	.container h1,h4{
+		font-size: 2.5em;
+	}
+
+    .header-text h4{
+		font-size: 1em;
+		margin-bottom: -0.125em;
+	}
+
+    .caption{
+        padding-left: 50px;  
+    }
+
+	.caption p{
+		font-size: 1em;
+	}
+}
